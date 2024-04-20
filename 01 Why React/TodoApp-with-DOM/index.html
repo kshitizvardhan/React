@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App</title>
+    <script>
+        function addTodo(){
+            /*
+            The ugly way/ old way of doing with only using .innerhtml
+            
+            const title = document.getElementById("title").value;
+            const description = document.getElementById("description").value;
+            const initialHTML = document.querySelector("#todos").innerHTML;
+
+            document.getElementById("todos").innerHTML = initialHTML + `<div>
+                <div> ${title}</div>
+                <div>${description}</div>
+                <button>Mark as Done</button>
+            </div>`
+
+            */
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <input id="title" type="text" placeholder="enter title"> <br>
+        <input id="description" type="text" placeholder="enter description"> <br>
+        <button onclick="addTodo()">Add Todo</button>
+    </div>
+    <div id="todos"></div>
+    <!-- Here we are making a todo with DOM manipulation...with primitives...which are old fashioned and is quite difficult and hard to make dynamic websites with dom manipulation...this is why React was introduced to make it easy... -->
+    <!-- But under the hood, react does DOM manipulation only...its no new tech..its just the syntax gets easier for us -->
+</body>
+</html>
