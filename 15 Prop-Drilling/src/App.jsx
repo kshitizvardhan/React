@@ -36,7 +36,7 @@ const Count = ({count, setCount}) => {
     // So C12 demands a state variable defined...as you can see C1 is way farther 
     // So the prop shall be mediated through C2,C6,C7,C8,C9,C10,C11 to C12
     // So this is called "PROP DRILLING", this makes the code highly unreadable and verbose
-    // To help in this, Context API's comes into the picture
+    // To help in this, Context API's comes into the picture, also state management libraries like redux, recoil etc.
   )
 }
 
