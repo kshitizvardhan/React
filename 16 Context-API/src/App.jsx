@@ -1,5 +1,4 @@
 import { useState } from 'react'
-import './App.css'
 import { Context } from './context'
 import { useContext } from 'react'
 
