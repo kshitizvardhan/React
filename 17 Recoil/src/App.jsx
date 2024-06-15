@@ -31,7 +31,7 @@ const CountRenderer = () => {
     <div>
       {count}
       <br />
-      {(isEven ==  0) ? "It is Even" : null}
+      <p>It is {(isEven ==  0) ? " Even" : " Odd"}</p>
     </div>
   )
 }
